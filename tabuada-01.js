@@ -13,7 +13,7 @@ function Tabuada() {
   } else {
     res.innerHTML = `A tabuada do ${n} é: </br>`;
     do {
-      r = n*e;
+      r = n*x;
       res.innerHTML += `${x} X ${n} = ${r} </br>`;
       x++;
     } while(x <= e)
